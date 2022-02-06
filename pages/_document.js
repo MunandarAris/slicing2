@@ -8,14 +8,13 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+          <link rel="shortcut icon" href="/images/favicon.png" />
+
           {/* use google font */}
           <link
             href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap"
             rel="stylesheet"
           />
-
-          <title>MSTSKP</title>
-          <link rel="shortcut icon" href="/images/favicon.png" />
         </Head>
         <body>
           <Main />
